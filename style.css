@@ -1,0 +1,108 @@
+#outer
+{
+    background-color: black;
+    border-radius: 2%;
+    padding: 50px;
+    margin: 5%;
+    box-shadow: 5px 5px 25px black;
+}
+#my
+{
+    text-shadow: 10px 10px 25px white;
+    text-align: center;
+}
+
+#logo
+{
+    float: right;
+    //margin-bottom: 500px;
+}
+#outer table
+{
+    width: 100%;
+    border-collapse: collapse;
+    //background-color: white;
+    border: 1px solid white;
+    text-align: center;
+    margin-top: 10%;
+}
+//@keyframes blinker
+    {
+        90%{
+            opacity:0.00001;
+        }
+    }
+#logo img{
+    border-radius: 25%;
+    box-shadow: 5px 5px 5px white;
+    //animation: blinker 2s linear infinite;
+}
+#dashboard p a
+{
+    margin: 20px;
+    margin-top: 50%;
+    text-decoration: none;
+    color: blue;
+
+}
+#dashboard p a:hover
+{
+    //background-color: red;
+    color: red;
+}
+
+#aboutme
+{
+    text-align: center;
+    border: 1px solid white;
+    color: red;
+    width: 100%;
+    margin-top: 10%;
+}
+#meouter table
+{   
+    margin-top: -0px;
+    width: 100%;
+}
+#meouter table tr
+{
+    border: 1px solid white;
+    
+}
+#myself
+{
+    color: red;
+    margin-top: 5%;
+}
+#myself p{
+    color: white;
+}
+#mywebsites
+{
+    color: red;
+    margin-top: 5%;
+}
+#mywebsites p a
+{
+    color: blue;
+    text-decoration: none;
+}
+#mywebsites p a:hover
+{
+    color: red;
+}
+#myimage img
+{
+    padding: 2%;
+    border-radius: 10%;
+}
+#high table
+{
+    margin-top: -0%;
+    padding-left: 10%;
+}
+#high table tr td
+{
+    border: 1px solid white;
+    padding: 5Px;
+}

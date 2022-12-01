@@ -1,0 +1,109 @@
+<html>
+<head>
+<style>
+#outer
+{
+	height:1000;
+	width:2000;
+	margin:auto;
+	animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker
+{
+	90%{
+		opacity:0.00001;
+	}
+}
+
+#c
+{
+	animation: blinker 2s linear;
+	margin-left:200;
+	height:950;
+	width:1000;
+}
+
+#a
+{
+	height:950;
+	width:500;
+	background-color:red;
+	border-radius:500px 500px 00px 00px;
+	margin-left:0;
+	float:left;
+	transform:rotate(-45deg);
+
+}
+
+#b
+{
+	height:465;
+	width:500;
+	background-color:red;
+	border-radius:500px 500px 00px 00px;
+	margin-top:63;
+	float:left;
+	transform:rotate(45deg);
+
+}
+
+#outer h1
+{
+	font-size:150;
+	color:yellow;
+	//margin-left:-100;
+	transform:rotate(0deg);
+	//margin-top:100;
+	
+}
+
+#outer h2
+{
+	font-size:150;
+	color:yellow;
+	margin-left:70;
+	transform:rotate(45deg);
+	margin-top:-70;
+}
+
+#outer h3
+{
+	font-size:150;
+	color:red;
+	margin-left:100;
+	//margin-right:100;
+	transform:rotate(45deg);
+	margin-top:550;
+	animation: blinker 10s linear 1;
+}
+
+#outer h4
+{
+	font-size:150;
+	color:red;
+	//margin-right:150;
+	transform:rotate(45deg);
+	margin-top:-150;
+	text-decoration:none;
+	animation: blinker 10s linear infinite;
+}
+</style>
+</head
+<body>
+<div id="outer">
+	
+
+
+	<div id="c">
+	<div id="a">
+		<h3>MOM</h3>
+		<h4>DAD</h4>
+	</div>
+	<div id="b">
+	</div>
+	</div>
+
+</div>
+</body>
+</html>
